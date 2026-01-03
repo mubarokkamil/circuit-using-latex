@@ -1,7 +1,13 @@
 # LaTeX Circuit Drawing Notes 📘
 
-This repository contains structured notes for drawing electrical and electronic circuits using LaTeX (`circuitikz`) in Overleaf.
+This repository contains structured notes for drawing electrical and electronic circuits using LaTeX (`circuitikz`).
 
+
+
+## 🎯 Who This Is For
+- Electrical & Electronic Engineering students
+- Beginners learning LaTeX + Circuitikz
+- Anyone tired of ugly PowerPoint circuits
 ---
 
 ## 📚 Table of Contents
