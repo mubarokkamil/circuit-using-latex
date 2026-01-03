@@ -10,6 +10,12 @@ To power our circuits, we use voltage sources.
 | **Battery** | `to[battery, l=9V]` | Standard battery symbol |
 | **Battery (Alt)**| `to[battery1]` | Alternative style |
 
+Example:  
+```latex
+\draw (0,0) to[V, l=9V] (0,3);
+```
+
+
 ## 2. Grounding
 Ground is a specific node shape in Circuitikz. It is typically attached to the end of a wire or a specific coordinate.
 
@@ -73,3 +79,15 @@ Output:
 <p align="center">
   <img src="images/l3-1.png" alt="Single Resistor Circuit">
 </p>
+
+To Flip the Battery:  
+```latex
+\draw (0,0) to[battery, invert, l=9V] (0,3);
+```
+Output:  
+
+<p align="center">
+  <img src="images/l3-2.png" alt="Single Resistor Circuit">
+</p>
+
+

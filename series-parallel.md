@@ -1,4 +1,4 @@
-# Lesson-3: Series-Parallel Connection
+# Lesson-4: Series-Parallel Connection
 
 ## Two Resistors in Series
 ```latex
