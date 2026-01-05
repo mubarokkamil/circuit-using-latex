@@ -136,3 +136,73 @@ Output:
 </p>
 
 
+## 🔹 Capacitor
+### Horizontal Capacitor:
+```latex
+\begin{circuitikz}
+  \draw (0,0) to[C, l=$C_1$] (3,0);
+\end{circuitikz}
+```
+
+Output:  
+
+<p align="center">
+  <img src="images/l2-1.png" alt="Single Resistor Circuit">
+</p>
+
+
+### Vertical Capacitor
+```latex
+\begin{circuitikz}
+  \draw (0,0) to[C, l=$C_{\rm load}$] (0,3);
+\end{circuitikz}
+```
+
+Output:  
+
+<p align="center">
+  <img src="images/l2-2.png" alt="Single Resistor Circuit">
+</p>
+
+
+## Horizontal Inductor
+```latex
+\begin{circuitikz}
+  \draw (0,0) to[L, l=$L_1$] (3,0);
+\end{circuitikz}
+```
+
+Output:  
+
+<p align="center">
+  <img src="images/l2-3.png" alt="Single Resistor Circuit">
+</p>
+
+
+## 🔹 Voltage Sources
+### DC Voltage Source
+```latex
+\begin{circuitikz}
+  \draw (0,0) to[V, l=10V] (0,3);
+\end{circuitikz}
+```
+Output:  
+
+<p align="center">
+  <img src="images/l2-4.png" alt="Single Resistor Circuit">
+</p>
+
+
+### Battery
+```latex
+\begin{circuitikz}
+  \draw (0,0) to[battery, l=9V] (0,3);
+\end{circuitikz}
+```
+
+Output:  
+
+<p align="center">
+  <img src="images/l2-5.png" alt="Single Resistor Circuit">
+</p>
+
