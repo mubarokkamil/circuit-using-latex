@@ -97,3 +97,44 @@ Output:
 </p>
 
 
+
+## Example-3:
+
+```latex
+\documentclass{article}
+\usepackage{circuitikz}
+
+\begin{document}
+    \begin{center}
+        \begin{circuitikz}[american]
+            
+            % 1. The AC Voltage Source (Left)
+            % sV = Sinusoidal Voltage
+            \draw (0,0) to[sV, l={120 V, 60 Hz}] (0,4);
+
+            % 2. Top Capacitor C1
+            % l = Label (Top), a = Annotation (Bottom)
+            \draw (0,4) to[C, l=$C_1$, a=$4.7\,\mu$F] (4,4);
+
+            % 3. Middle Branch (Inductor L + Capacitor C2)
+            % We draw from top (4,4) down to (4,0)
+            % "*-*" adds connection dots at start and end
+            \draw (4,4) to[L, l=$L$, a=$650$ mH, *-] (4,2)
+                        to[C, l=$C_2$, a=$1.5\,\mu$F, -*] (4,0);
+
+            % 4. Right Branch (Resistor R)
+            \draw (4,4) -- (7,4) % Wire to the right
+                        to[R, l=$R$, a=$470\,\Omega$] (7,0) % Resistor down
+                        -- (0,0); % Bottom wire back to start
+
+        \end{circuitikz}
+    \end{center}
+\end{document}
+```
+
+Output:  
+
+<p align="center">
+  <img src="images/l5-3.png" alt="Single Resistor Circuit">
+</p>
+

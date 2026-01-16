@@ -15,5 +15,4 @@ This repository contains structured notes for drawing electrical and electronic 
 2. [Lesson-02-Basic Circuit Components](basic-components.md)
 3. [Lesson 03: Voltage Sources, Grounds, and Nodes](lesson-3.md)
 4. [Lesson-04-Series & Parallel Circuits](series-parallel.md)
-5. [Lesson-05-Lesson-5: Series–Parallel Circuit Examples](lesson-5.md)
-6. [Lesson-05-Operational Amplifier Circuits](opamps.md)
+5. [Lesson-05-Series–Parallel Circuit Examples](lesson-5.md)
